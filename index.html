@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap Page</title>
+</head>
+<body>
+    <!-- this is Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="" class="navbar-brand">My Bootstrap Page</a>
+
+            <button 
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu">
+
+            <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#web_programming" class="nav-link"> Web Programming </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#frequently_questions" class="nav-link"> Questions </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"> Contact </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- this is ShowCase -->
+    <section class="bg-dark text-light p-5 pt-lg-5  text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Tsotne Darjania is the <span class="text-warning">
+                        Master
+                    </span>  of Bootstrap
+                </h1>
+                <p class="lead my-4">
+                    He is the best bootstrap master, 
+                    we did not expect if he learned everything so soon,
+                    he makes the best use of bootstrap's capabilities <br> <span class="text-primary"> Twitter Team (bootstrap creators) </span> 
+                </p>
+                </div>
+                <img class="img-fluid img-responsive w-50 d-none d-sm-block" src="img/showcase.png" alt="" id="shocase_img">
+            </div>
+        </div>
+    </section> 
+
+    <!-- Blu Container -->
+    <section class="bg-primary text-light p-3">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-itemc-center">
+                <h3 class="mb-3 mb-md-0">Web Programming</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Boxes -->
+    <section id="web_programming" class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Front-End
+                            </h3>
+                            <p class="card-text">
+                                Front-end web development is the development of the graphical
+                                 user interface of a website, through the use of HTML, CSS,
+                                 and JavaScript
+                            </p>
+                            <a href="https://en.wikipedia.org/wiki/Front-end_web_development" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-code-slash"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                HTML
+                            </h3>
+                            <p class="card-text">
+                                HTML (HyperText Markup Language) is 
+                                the most basic building block of the Web
+                                It defines the meaning and structure of web content.
+                            </p>
+                            <a href="https://www.w3schools.com/html" class="btn btn-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Back-End
+                            </h3>
+                            <p class="card-text">
+                                Backend Development is also known as server-side development.
+                                 It is everything that the users don't see and contains
+                                 behind-the-scenes 
+                            </p>
+                            <a href="https://www.guru99.com/what-is-backend-developer.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learn Sections -->
+    <section class="p-6" id="learn">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="img/fundamentals.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md p-5">
+                    <h2>WHY FRONT-END DEVELOPMENT</h2>
+                    <p>A successful business requires a functional, 
+                        clean and attractive website to appeal to clients
+                        and maintain their interest. Front end development
+                        of a website is crucial to this concept.
+                    </p>
+                    <p>
+                        The wrong
+                        type of development not only creates an unsightly 
+                        appearance, but also drives away business. A website’s
+                        programming and layout needs to factor in the business purpose, 
+                        branding and customer needs to fully support the company itself.
+                    </p>
+                    <a href="https://36creative.com/development/1831/front-end-development-important-business-success" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right">Read More</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Footer -->
+    <section class="p-5 bg-dark text-light" id="learn">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>What is React</h2>
+                    <p>
+                        React is remarkably flexible. Once you have learned 
+                        it, you can use it on a vast variety of platforms to
+                        build quality user interfaces. React is a library,
+                        NOT a framework. Its library approach has allowed
+                        React to evolve into such a remarkable tool.
+                    <p>
+                        React was created with a single focus:
+                        to create components for web applications.
+                        A React component can be anything in your 
+                        web application like a Button, Text, Label,
+                        or Grid.
+                    </p>
+                    <a href="https://reactjs.org/tutorial/tutorial.html" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right">Read More</i>
+
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="img/react.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Questions -->
+    <section id="frequently_questions" class="p-5">
+        <div class="container">
+            <h2 class="text-center md-4">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush" id="questions">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        About me
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+                    <div class="accordion-body">
+                        I am a front-end developer from Georgia, I live in Tbilisi,
+                         I love football, 
+                        dogs and creating beautiful sites for your company
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        How do I learn web programming
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#questions">
+                    <div class="accordion-body">
+                        I'm mostly self-taught, I learned a lot while 
+                        working on my own projects, I often ran into 
+                        problems, but internet resources and my own creativity
+                         have always helped me solve them, I still learn 
+                         from sites like:
+                        <br>
+                        freecodecamp
+                        <br>
+                        udemy
+                        <br>
+                        and others
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      What is my work experience
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#questions">
+                    <div class="accordion-body">
+                        In addition to my own projects, I have been working as a
+                        freelancer on many small projects since 2022, 
+                        I have the greatest motivation to start working for your company
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <!-- Contact & map -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center md-4">Contact Info</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location :</span> Tbilisi 
+                            gvazauri street no.11
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Phone :</span> + 995 592 02 28 24
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email :</span> tsotnedarjania1997@gmail.com
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">GitHub :</span> github.com/TsotneDarjania
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Facebook :</span> facebook.com/profile.php?id=100078120847360
+                        </li>
+                    </ul>
+                </div>      
+                <div class="col-md">
+                    <div id="map">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2022 Front-End Bootstrap</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js'></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoidHNvdG5lMTIzIiwiYSI6ImNremZwMWJxNTB0ZXUycG8wdWdzODVuaWsifQ.Lg3-l43lU8r7m2x4UxAYLQ';
+        const map = new mapboxgl.Map({
+            container: 'map', // container ID
+            style: 'mapbox://styles/mapbox/streets-v11', // style URL
+            center: [44.792932, 41.754228], // starting position [lng, lat]
+            zoom: 16 // starting zoom
+});
+    </script>
+</body>
+</html>
